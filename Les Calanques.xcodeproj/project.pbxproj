@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E920D74024893B6F0069A7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D73F24893B6F0069A7A5 /* AppDelegate.swift */; };
+		E920D74224893B6F0069A7A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D74124893B6F0069A7A5 /* SceneDelegate.swift */; };
+		E920D74924893B700069A7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E920D74724893B6F0069A7A5 /* Main.storyboard */; };
+		E920D74B24893B740069A7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E920D74A24893B740069A7A5 /* Assets.xcassets */; };
+		E920D74E24893B740069A7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E920D74C24893B740069A7A5 /* LaunchScreen.storyboard */; };
+		E920D75924893DDA0069A7A5 /* Calanques.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D75824893DDA0069A7A5 /* Calanques.swift */; };
+		E920D75B24894A750069A7A5 /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D75A24894A750069A7A5 /* CalanqueCollection.swift */; };
+		E920D75D24894B5E0069A7A5 /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D75C24894B5E0069A7A5 /* ControllerAvecTableView.swift */; };
+		E920D75F24894B980069A7A5 /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D75E24894B980069A7A5 /* ControllerAvecCarte.swift */; };
+		E920D76124894BAE0069A7A5 /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920D76024894BAE0069A7A5 /* TableViewIntegreeController.swift */; };
+		E92BCA39248A54DA005FE674 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BCA38248A54DA005FE674 /* DetailController.swift */; };
+		E92BCA3B248A7302005FE674 /* Bouton_Arrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BCA3A248A7302005FE674 /* Bouton_Arrondi.swift */; };
+		E92BCA3D248A8314005FE674 /* MonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BCA3C248A8314005FE674 /* MonAnnotation.swift */; };
+		E92BCA3F248A860C005FE674 /* MonAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BCA3E248A860C005FE674 /* MonAnnotationView.swift */; };
+		E99874AA248A31CE00417955 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99874A9248A31CE00417955 /* CalanqueCell.swift */; };
+		E99874AC248A38D800417955 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99874AB248A38D800417955 /* ImageRonde.swift */; };
+		E99874AE248A3E3D00417955 /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99874AD248A3E3D00417955 /* CalanqueCellAlternative.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E920D73C24893B6F0069A7A5 /* Les Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E920D73F24893B6F0069A7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E920D74124893B6F0069A7A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E920D74824893B6F0069A7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E920D74A24893B740069A7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E920D74D24893B740069A7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E920D74F24893B740069A7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E920D75824893DDA0069A7A5 /* Calanques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanques.swift; sourceTree = "<group>"; };
+		E920D75A24894A750069A7A5 /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		E920D75C24894B5E0069A7A5 /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableView.swift; sourceTree = "<group>"; };
+		E920D75E24894B980069A7A5 /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		E920D76024894BAE0069A7A5 /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
+		E92BCA38248A54DA005FE674 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		E92BCA3A248A7302005FE674 /* Bouton_Arrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bouton_Arrondi.swift; sourceTree = "<group>"; };
+		E92BCA3C248A8314005FE674 /* MonAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotation.swift; sourceTree = "<group>"; };
+		E92BCA3E248A860C005FE674 /* MonAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotationView.swift; sourceTree = "<group>"; };
+		E99874A9248A31CE00417955 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
+		E99874AB248A38D800417955 /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
+		E99874AD248A3E3D00417955 /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E920D73924893B6F0069A7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E920D73324893B6F0069A7A5 = {
+			isa = PBXGroup;
+			children = (
+				E920D73E24893B6F0069A7A5 /* Les Calanques */,
+				E920D73D24893B6F0069A7A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E920D73D24893B6F0069A7A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E920D73C24893B6F0069A7A5 /* Les Calanques.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E920D73E24893B6F0069A7A5 /* Les Calanques */ = {
+			isa = PBXGroup;
+			children = (
+				E920D75524893CEF0069A7A5 /* Modele */,
+				E920D75624893D020069A7A5 /* Vue */,
+				E920D75724893D240069A7A5 /* Controller */,
+				E920D73F24893B6F0069A7A5 /* AppDelegate.swift */,
+				E920D74124893B6F0069A7A5 /* SceneDelegate.swift */,
+				E920D74724893B6F0069A7A5 /* Main.storyboard */,
+				E920D74A24893B740069A7A5 /* Assets.xcassets */,
+				E920D74C24893B740069A7A5 /* LaunchScreen.storyboard */,
+				E920D74F24893B740069A7A5 /* Info.plist */,
+			);
+			path = "Les Calanques";
+			sourceTree = "<group>";
+		};
+		E920D75524893CEF0069A7A5 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+				E920D75824893DDA0069A7A5 /* Calanques.swift */,
+				E920D75A24894A750069A7A5 /* CalanqueCollection.swift */,
+				E92BCA3C248A8314005FE674 /* MonAnnotation.swift */,
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		E920D75624893D020069A7A5 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+				E99874A9248A31CE00417955 /* CalanqueCell.swift */,
+				E99874AB248A38D800417955 /* ImageRonde.swift */,
+				E99874AD248A3E3D00417955 /* CalanqueCellAlternative.swift */,
+				E92BCA3A248A7302005FE674 /* Bouton_Arrondi.swift */,
+				E92BCA3E248A860C005FE674 /* MonAnnotationView.swift */,
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		E920D75724893D240069A7A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E920D75C24894B5E0069A7A5 /* ControllerAvecTableView.swift */,
+				E920D75E24894B980069A7A5 /* ControllerAvecCarte.swift */,
+				E920D76024894BAE0069A7A5 /* TableViewIntegreeController.swift */,
+				E92BCA38248A54DA005FE674 /* DetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E920D73B24893B6F0069A7A5 /* Les Calanques */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E920D75224893B740069A7A5 /* Build configuration list for PBXNativeTarget "Les Calanques" */;
+			buildPhases = (
+				E920D73824893B6F0069A7A5 /* Sources */,
+				E920D73924893B6F0069A7A5 /* Frameworks */,
+				E920D73A24893B6F0069A7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Les Calanques";
+			productName = "Les Calanques";
+			productReference = E920D73C24893B6F0069A7A5 /* Les Calanques.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E920D73424893B6F0069A7A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Joyce;
+				TargetAttributes = {
+					E920D73B24893B6F0069A7A5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E920D73724893B6F0069A7A5 /* Build configuration list for PBXProject "Les Calanques" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E920D73324893B6F0069A7A5;
+			productRefGroup = E920D73D24893B6F0069A7A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E920D73B24893B6F0069A7A5 /* Les Calanques */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E920D73A24893B6F0069A7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E920D74E24893B740069A7A5 /* LaunchScreen.storyboard in Resources */,
+				E920D74B24893B740069A7A5 /* Assets.xcassets in Resources */,
+				E920D74924893B700069A7A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E920D73824893B6F0069A7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92BCA3B248A7302005FE674 /* Bouton_Arrondi.swift in Sources */,
+				E920D75924893DDA0069A7A5 /* Calanques.swift in Sources */,
+				E99874AE248A3E3D00417955 /* CalanqueCellAlternative.swift in Sources */,
+				E92BCA39248A54DA005FE674 /* DetailController.swift in Sources */,
+				E920D75D24894B5E0069A7A5 /* ControllerAvecTableView.swift in Sources */,
+				E920D76124894BAE0069A7A5 /* TableViewIntegreeController.swift in Sources */,
+				E920D74024893B6F0069A7A5 /* AppDelegate.swift in Sources */,
+				E920D74224893B6F0069A7A5 /* SceneDelegate.swift in Sources */,
+				E920D75F24894B980069A7A5 /* ControllerAvecCarte.swift in Sources */,
+				E99874AC248A38D800417955 /* ImageRonde.swift in Sources */,
+				E920D75B24894A750069A7A5 /* CalanqueCollection.swift in Sources */,
+				E92BCA3D248A8314005FE674 /* MonAnnotation.swift in Sources */,
+				E92BCA3F248A860C005FE674 /* MonAnnotationView.swift in Sources */,
+				E99874AA248A31CE00417955 /* CalanqueCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E920D74724893B6F0069A7A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E920D74824893B6F0069A7A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E920D74C24893B740069A7A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E920D74D24893B740069A7A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E920D75024893B740069A7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E920D75124893B740069A7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E920D75324893B740069A7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH92U88T95;
+				INFOPLIST_FILE = "Les Calanques/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joyce.Les-Calanques";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E920D75424893B740069A7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH92U88T95;
+				INFOPLIST_FILE = "Les Calanques/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joyce.Les-Calanques";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E920D73724893B6F0069A7A5 /* Build configuration list for PBXProject "Les Calanques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E920D75024893B740069A7A5 /* Debug */,
+				E920D75124893B740069A7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E920D75224893B740069A7A5 /* Build configuration list for PBXNativeTarget "Les Calanques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E920D75324893B740069A7A5 /* Debug */,
+				E920D75424893B740069A7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E920D73424893B6F0069A7A5 /* Project object */;
+}
